@@ -1,0 +1,147 @@
+body{
+    color:#873e23;
+    background-image:url("/learningcss/Images/paperBackground.jpg");
+}
+
+strong{
+    color:#FF5733;
+}
+
+img{
+    width:450px;
+    height:300px;
+}
+
+
+td{
+    width:500px;
+    text-align:center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #484342;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #04AA6D;
+}
+
+div{
+  padding: 50px;
+  margin: 20px;
+}
+
+.active {
+  background-color: orange;
+}
+
+.flexBox {
+  border: none;
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+
+.imageFlexBox {
+  width:30%;
+  border: none;
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+
+.imgTitle {
+  text-align:center;
+}
+
+.aspectImage{
+  width:900px;
+  height:600px;
+  margin-left:250px;
+}
+
+#diceTab {
+  float:right;
+}
+
+#charSheetTab {
+  float:right;
+}
+
+#Alexstrasza {
+  color:red;
+  font-family: "Papyrus", "Garamond", sans-serif;
+  border: 15px solid red;
+}
+
+#Ysera {
+  color:green;
+  font-family: "Papyrus", "Garamond", sans-serif;
+  border: 15px solid green;
+}
+
+#Malygos {
+  color:blue;
+  font-family: "Papyrus", "Garamond", sans-serif;
+  border: 15px solid blue;
+}
+
+#Nozdormu {
+  color:orange;
+  font-family: "Papyrus", "Garamond", sans-serif;
+  border: 15px solid orange;
+}
+
+#Neltharion {
+  color:black;
+  font-family: "Papyrus", "Garamond", sans-serif;
+  border: 15px solid black;
+}
+
+@media only screen and (hover: none) {
+  img {
+    width: 900px;
+    height: 600px;
+  }
+  
+  body{
+    font-size: 50px;
+    margin:20px;
+  }
+  
+  
+  .imageFlexBox{
+    width:100%;
+  }
+  
+  .aspectImage{
+  width:700px;
+  height:600px;
+  margin-left:30px;
+  }
+  
+  #diceTab {
+    float:left;
+  }
+  
+  #charSheetTab {
+    float:left;
+  }
+  
+}

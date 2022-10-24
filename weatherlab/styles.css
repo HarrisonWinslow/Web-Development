@@ -1,0 +1,136 @@
+body {
+    background-color:#e6ffff;
+}
+
+.heading{
+    background-color:#33ccff;
+    text-align:center;
+    font-size:20px;
+    font-family: "Papyrus", "Garamond", sans-serif;
+    font-weight: bold;
+    border:0px;
+}
+
+.InputForm{
+    text-align: center;
+    padding:10px;
+}
+
+.weatherHeading {
+    text-align:center;
+    font-size:20px;
+    font-family: "Papyrus", "Garamond", sans-serif;
+    font-weight: bold;
+}
+
+.weatherBody {
+    text-align:center;
+}
+
+
+
+.leftHead {
+    text-align:left;
+    margin-right:100px;
+}
+
+.centerHead {
+    text-align:center;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.rightHead {
+    text-align:right;
+    margin-left:100px;
+}
+
+.leftItem {
+    float:left;
+    text-align:left;
+    margin-left:75px;
+}
+
+.centerItem {
+    text-align:center;
+    margin-left:75px;
+    margin-right:75px;
+}
+
+.rightItem {
+    float:right;
+    text-align:right;
+    margin-right:75px;
+}
+
+.leftImage {
+    margin-right:190px;
+}
+
+.centerImage {
+    margin-left:190px;
+    margin-right:190px;
+}
+
+.rightImage {
+    margin-left:190px;
+}
+
+#weatherSubmit {
+    background-color:#b3ffff;
+    border-color:#b3ffff;
+    border-top:20px;
+}
+
+#weatherResults {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align:center;
+}
+
+
+
+.masonry {
+    margin: 1.5em auto;
+    max-width: 2000px;
+    column-gap: 1.5em;
+}
+
+.item {
+    /*background-image:url("/photolab/Images/tealBackground.webp");*/
+    background-color:#ccffff;
+    padding: 1em;
+    margin: 1em;
+}
+
+.html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Masonry on large screens */
+@media only screen and (min-width: 1200px) {
+  .masonry {
+    column-count: 4;
+  }
+}
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1199px) and (min-width: 900px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
+/* Masonry on small screens */
+@media only screen and (max-width: 899px) and (min-width: 600px) {
+  .masonry {
+    column-count: 2;
+  }
+}

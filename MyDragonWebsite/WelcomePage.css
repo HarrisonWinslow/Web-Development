@@ -1,0 +1,304 @@
+body {
+    color:#873e23;
+    background-image:url("/MyDragonWebsite/Images/paperBackground.jpg");
+}
+
+p {
+  margin: 1em;
+}
+
+.normal-image {
+    width:450px;
+    height:300px;
+}
+
+
+td {
+    width:500px;
+    text-align:center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #484342;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #04AA6D;
+}
+
+.normal-div {
+  padding: 50px;
+  margin: 20px;
+}
+
+.active2 {
+  background-color: orange;
+}
+
+.flexBox {
+  padding-top:10px;
+  border: none;
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+
+.imageFlexBox {
+  width:10%;
+  border: none;
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+
+.imgTitle {
+  text-align:center;
+}
+
+.aspectImage{
+  width:900px;
+  height:600px;
+  margin-left:250px;
+}
+
+.pageHeader {
+  text-align:center;
+  font-weight:bold;
+  margin-top:30px;
+}
+
+.img-responsive {
+  width:100vw;
+}
+
+.transbox {
+  margin: 50px;
+  margin-left:400px;
+  margin-right:400px;
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.5);
+}
+
+#diceButton {
+  background-image:url("/MyDragonWebsite/Images/paperBackground.jpg");
+  border:none;
+}
+
+#diceTab {
+  float:right;
+}
+
+#charSheetTab {
+  float:right;
+}
+
+#VariamanSpadagenti {
+  font-family: "Brush Script MT", "Garamond", sans-serif;
+  font-size:30px;
+  color:black;
+}
+
+#Alexstrasza {
+  color:red;
+  font-family: "Papyrus", "Garamond", sans-serif;
+  border: 15px solid red;
+}
+
+#Ysera {
+  color:green;
+  font-family: "Papyrus", "Garamond", sans-serif;
+  border: 15px solid green;
+}
+
+#Malygos {
+  color:blue;
+  font-family: "Papyrus", "Garamond", sans-serif;
+  border: 15px solid blue;
+}
+
+#Nozdormu {
+  color:darkOrange;
+  font-family: "Papyrus", "Garamond", sans-serif;
+  border: 15px solid darkOrange;
+}
+
+#Neltharion {
+  color:black;
+  font-family: "Papyrus", "Garamond", sans-serif;
+  border: 15px solid black;
+}
+
+
+.white-text {
+  color:#6B2D02;
+  font-size:30px;
+}
+
+
+@media only screen and (hover: none) {
+  img {
+    width: 900px;
+    height: 600px;
+  }
+  
+  body{
+    font-size: 50px;
+    margin:20px;
+  }
+  
+  
+  .imageFlexBox{
+    width:100%;
+  }
+  
+  .aspectImage{
+  width:700px;
+  height:600px;
+  margin-left:30px;
+  }
+  
+  #diceTab {
+    float:left;
+  }
+  
+  #charSheetTab {
+    float:left;
+  }
+  
+}
+
+.diceButton {
+  text-align:center;
+  font-size:30px;
+  font-weight:bold;
+}
+
+
+.wowDragonTab {
+  margin:20px;
+  padding-bottom:20px;
+}
+
+.wowDragonHeader {
+  text-align:center;
+  margin:20px;
+}
+
+.g-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.g-column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.g-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.no-margin {
+  margin:0px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .g-column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .g-column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.tiny-img {
+  width: 3em;
+  margin: 0px;
+  border-radius:0.3em;
+}
+
+#dragon-logo {
+  width: 30px;
+}
+
+.hide-mobile {
+  display: flex;
+}
+
+.show-mobile {
+  display: none;
+}
+
+@media screen and (hover: none) {
+  body {
+    margin:0 0;
+  }
+  
+  .tiny-img {
+    height: 3em;
+  }
+  
+  #dragon-logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .hide-mobile {
+    display: none;
+  }
+  
+  .show-mobile {
+    display: flex;
+  }
+  
+  .d-small {
+    font-size: 28px;
+  }
+  
+  .g-column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+  
+  .d-dice {
+    max-width: 65%;
+  }
+  
+  #VariamanSpadagenti {
+    font-family: "Brush Script MT", "Garamond", sans-serif;
+    font-size: 60px;
+    color:black;
+  }
+}
+
+
+

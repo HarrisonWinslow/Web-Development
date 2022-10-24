@@ -1,0 +1,129 @@
+body{
+    background-image:url("/photolab/Images/charcoalTexture.webp");
+}
+
+#navbarHeader {
+    font-size:50px;
+}
+
+#logo {
+    padding:20px;
+}
+
+#current{
+    color:#32CC81;
+}
+
+.navbarOption {
+    font-size:30px;
+}
+
+/* Menu */
+.bg-dark {
+  background-color: #468B8B !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #333;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #7F52BB;
+}
+
+.navbar .nav > .active > a{
+ color:#32CC81;
+}
+
+.bodyText {
+    color:darkGreen;
+    font-size:30px;
+    text-align:center;
+    margin-top:60px;
+}
+
+.reviewBlock {
+    color:grey;
+    font-size:15px;
+}
+
+.reviewName {
+    color:darkGreen;
+    font-size:20px;
+    margin-left:10px;
+}
+
+.reviewText {
+    margin-left:30px;
+    font-family:"Times New Roman";
+}
+
+.reviewLine{
+    color:black;
+    margin-top:20px;
+    margin-bottom:20px;
+    border-top:10px solid black;
+    
+}
+
+#photoOfMe {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+}
+
+.widePicture {
+    height:200px;
+    width:300px;
+}
+
+.tallPicture {
+    height:450px;
+    width:300px;
+}
+
+
+.masonry {
+    margin: 1.5em auto;
+    max-width: 2000px;
+    column-gap: 1.5em;
+}
+
+.item {
+    /*background-image:url("/photolab/Images/tealBackground.webp");*/
+    background-color:#468B8B;
+    padding: 1em;
+    margin: 1em;
+}
+
+.html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Masonry on large screens */
+@media only screen and (min-width: 1200px) {
+  .masonry {
+    column-count: 4;
+  }
+}
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1199px) and (min-width: 900px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
+/* Masonry on small screens */
+@media only screen and (max-width: 899px) and (min-width: 600px) {
+  .masonry {
+    column-count: 2;
+  }
+}

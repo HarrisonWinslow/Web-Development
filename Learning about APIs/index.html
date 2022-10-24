@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<title>XKCD</title>
+
+<body>
+
+  <p>Current comic</p>
+  <div id="comic">No comic</div>
+</body>
+
+<script>
+/*global fetch*/
+  var myurl = "https://xkcd.vercel.app/?comic=latest";
+  console.log(myurl);
+  fetch(myurl, {mode: 'cors'})
+    .then(function(response) {
+      console.log(response);
+      return response.json();
+    }).then(function(json) {
+      console.log("This is the json");
+      console.log(json);
+      const alt = document.createTextNode(json["alt"]);
+      const container = document.getElementById("comic");
+      container.textContent = "";
+      container.appendChild(alt);
+    });
+</script>
+</html>
